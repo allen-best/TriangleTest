@@ -1,2 +1,4 @@
-TestTriangle.pyc
-Triangle.pyc
+test_triangle.pyc
+triangle_check.pyc
+__pycache__
+.vscode
