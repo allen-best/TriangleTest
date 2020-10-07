@@ -43,7 +43,7 @@ def classify_triangle(side_a,side_b,side_c):
     if ((side_a >= (side_b + side_c))
         or (side_b >= (side_a + side_c))
         or (side_c >= (side_a + side_b))):
-        triangle_type = 'NotATriangle'
+        return 'NotATriangle'
 
     # now we know that we have a valid triangle
     if side_a == side_b and side_b == side_c:
